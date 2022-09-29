@@ -1,0 +1,268 @@
+/* Media query start */
+/* Extra small devices(below 576px) */
+@media (max-width: 575px) {
+    section {
+        padding-inline: 40px !important;
+    }
+    .navbar {
+        padding: 10px 50px !important;
+        background: linear-gradient(to right, #f95865, #ffb070);
+        box-shadow: 0 5px 20px -10px #000;
+        display: block;
+    }
+    .nav-link {
+        text-align: center !important;
+    }
+    a.download-btn {
+        padding: 8px 20px;
+        margin-inline: auto;
+    }
+    .single-service {
+        width: 80% !important;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+
+    .down-btn li {
+        display: block;
+        margin-inline: auto;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    .download {
+        background: #f3f1fa;
+    }
+    .moto img[class~="watch"] {
+        margin-top: 50px;
+    }
+    .single-feature {
+        width: 90% !important;
+        margin-inline: auto;
+    }
+    .single-purchase {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .single-member {
+        width: 60%;
+        margin: auto;
+    }
+    .content-tab ul {
+        justify-content: center;
+        display: grid;
+    }
+    .content-tab li {
+        margin-inline: auto !important;
+    }
+    .social-media a {
+        margin-inline: 0px !important;
+    }
+    .single-service {
+        width: 70%;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+    .screenshot-heading {
+        width: 100% !important;
+    }
+    .screenshot-slider .slick-list {
+        padding-inline: 0px !important;
+        margin-inline: 20%;
+    }
+    .header-slider {
+        padding-inline: 50px;
+    }
+    .header-slider:hover .carousel-control-prev {
+        left: -40px;
+    }
+    .header-slider:hover .carousel-control-next {
+        right: -40px !important;
+    }
+    .image1 {
+        display: none;
+    }
+    .header-slider h1 {
+        font-size: 40px;
+    }
+    .header-slider p {
+        font-size: 15px;
+        padding: 0 100px 0 0;
+    }
+    .header-slider .down-button {
+        padding: 10px 25px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        padding-block: 10px !important;
+        background: linear-gradient(to right, #f95865, #ffb070);
+        box-shadow: 0 5px 20px -10px #000;
+        display: block;
+    }
+    .navbar .nav-link {
+        text-align: center !important;
+    }
+    a.download-btn {
+        padding: 8px 20px;
+        margin-inline: auto;
+    }
+    .down-btn li {
+        display: block;
+        margin-inline: auto;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    .download {
+        background: #f8f7fc;
+    }
+    .single-service {
+        width: 70%;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+    .single-feature {
+        width: 70% !important;
+        margin-inline: auto;
+    }
+    .content-tab ul {
+        justify-content: center;
+        display: grid;
+    }
+    .content-tab li {
+        margin-inline: auto !important;
+    }
+    .single-purchase {
+        width: 60%;
+        margin-inline: auto;
+    }
+    .single-member {
+        width: 60%;
+        margin: auto;
+    }
+    .map-area iframe {
+        margin-top: 30px;
+    }
+    .moto img[class~="watch"] {
+        margin-top: 50px;
+    }
+    .screenshot-heading {
+        width: 80% !important;
+    }
+    .screenshot-slider .slick-list {
+        padding-inline: 90px !important;
+        margin-inline: 50px;
+    }
+    .image1 {
+        display: none;
+    }
+
+    .header-slider h1 {
+        font-size: 40px;
+    }
+
+    .header-slider p {
+        font-size: 15px;
+        padding: 0 100px 0 0;
+    }
+
+    .header-slider .down-button {
+        padding: 10px 25px;
+    }
+
+    .header-slider:hover .carousel-control-prev {
+        left: -20px;
+    }
+
+    .header-slider:hover .carousel-control-next {
+        right: -20px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        padding-inline: 30px !important;
+    }
+    .navbar-nav .nav-link {
+        padding-inline: 0px 10px !important;
+    }
+    .nav-link.download-btn {
+        padding: 3px 15px !important;
+    }
+    .subscribe-heading {
+        width: 70%;
+        margin: auto;
+    }
+    .screenshot-heading {
+        width: 75% !important;
+    }
+    .screenshot-slider .slick-list {
+        padding-inline: 130px !important;
+    }
+    .image1 {
+        bottom: 35% !important;
+        right: 15% !important;
+    }
+
+    .header-slider h1 {
+        font-size: 40px;
+    }
+    .header-slider p {
+        font-size: 15px;
+        padding: 0 150px 0 0;
+    }
+    .header-slider .down-button {
+        padding: 10px 25px;
+    }
+    .header-slider:hover .carousel-control-prev {
+        left: -20px;
+    }
+    .header-slider:hover .carousel-control-next {
+        right: -20px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav .nav-link {
+        padding-inline: 20px !important;
+    }
+    .nav-link.download-btn {
+        padding: 3px 20px !important;
+    }
+    .pricing-heading {
+        width: 60%;
+    }
+    .team-heading {
+        width: 60%;
+    }
+    .subscribe-heading {
+        width: 60%;
+        margin: auto;
+    }
+    .screenshot-slider .slick-list {
+        padding-inline: 150px !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .pricing-heading {
+        width: 60%;
+    }
+    .team-heading {
+        width: 60%;
+        margin: auto;
+    }
+    .subscribe-heading {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+/* Media query end */
